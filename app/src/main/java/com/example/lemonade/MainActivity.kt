@@ -15,12 +15,11 @@
  */
 package com.example.lemonade
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.ImageView
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.snackbar.Snackbar
-import kotlin.Boolean
 
 class MainActivity : AppCompatActivity() {
 
@@ -130,6 +129,7 @@ class MainActivity : AppCompatActivity() {
         // TODO: lastly, before the function terminates we need to set the view elements so that the
         //  Contacts.Intents.UI can reflect the correct state
         setViewElements()
+        showSnackbar()
     }
 
     /**
